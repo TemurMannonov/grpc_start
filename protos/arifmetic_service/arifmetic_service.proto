@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package="genproto/arifmetic_service";
+
+message Request {
+    double a = 1;
+    double b = 2;
+}
+
+message Response {
+    double result = 1;
+}
+
+service ArifmeticService {
+    rpc Add(Request) returns (Response);
+    rpc Substract(Request) returns (Response);
+    rpc Multiply(Request) returns (Response);
+    rpc Divide(Request) returns (Response);
+}
