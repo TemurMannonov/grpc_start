@@ -1,4 +1,4 @@
-module grpc_start
+module github.com/TemurMannonov/grpc_start
 
 go 1.19
 

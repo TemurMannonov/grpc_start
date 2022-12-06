@@ -3,7 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	arifmeticService "grpc_start/genproto/arifmetic_service"
+
+	arifmeticService "github.com/TemurMannonov/grpc_start/genproto/arifmetic_service"
 
 	"google.golang.org/grpc"
 )

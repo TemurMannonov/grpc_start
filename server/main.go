@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	arifmeticService "grpc_start/genproto/arifmetic_service"
+	arifmeticService "github.com/TemurMannonov/grpc_start/genproto/arifmetic_service"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
